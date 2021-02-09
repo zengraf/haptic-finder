@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1ED4A625B9E22400CDFBE9 /* PeripheralsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1ED4A525B9E22400CDFBE9 /* PeripheralsViewModel.swift */; };
+		FE1ED4B125BA019700CDFBE9 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FE1ED4B025BA019700CDFBE9 /* SwiftUICharts */; };
+		FE1ED4B625BA236700CDFBE9 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1ED4B525BA236700CDFBE9 /* Haptics.swift */; };
+		FE1ED4BA25BA2B1F00CDFBE9 /* Comparable-clamped.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1ED4B925BA2B1F00CDFBE9 /* Comparable-clamped.swift */; };
+		FE91894F25D07885003B8A3A /* PeripheralSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91894E25D07885003B8A3A /* PeripheralSelector.swift */; };
+		FE97220F25D3362D001F8B72 /* PeripheralListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97220E25D3362D001F8B72 /* PeripheralListItem.swift */; };
+		FEB5858825D03D480015EC74 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB5858625D03D480015EC74 /* DataModel.xcdatamodeld */; };
+		FEB585AC25D040D00015EC74 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB585AB25D040D00015EC74 /* Persistence.swift */; };
+		FEBF507725B88EB10045089C /* HapticFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF507625B88EB10045089C /* HapticFinder.swift */; };
+		FEBF507925B88EB10045089C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF507825B88EB10045089C /* ContentView.swift */; };
+		FEBF507B25B88EB20045089C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF507A25B88EB20045089C /* Assets.xcassets */; };
+		FEBF507E25B88EB20045089C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF507D25B88EB20045089C /* Preview Assets.xcassets */; };
+		FEBFAEFC25B9D5170030C542 /* PeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBFAEFB25B9D5170030C542 /* PeripheralViewModel.swift */; };
+		FEBFAEFF25B9D8710030C542 /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBFAEFE25B9D8710030C542 /* PeripheralView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE1ED4A525B9E22400CDFBE9 /* PeripheralsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralsViewModel.swift; sourceTree = "<group>"; };
+		FE1ED4B525BA236700CDFBE9 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		FE1ED4B925BA2B1F00CDFBE9 /* Comparable-clamped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable-clamped.swift"; sourceTree = "<group>"; };
+		FE91894E25D07885003B8A3A /* PeripheralSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralSelector.swift; sourceTree = "<group>"; };
+		FE97220E25D3362D001F8B72 /* PeripheralListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralListItem.swift; sourceTree = "<group>"; };
+		FEB5858725D03D480015EC74 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		FEB585AB25D040D00015EC74 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FEBF507325B88EB10045089C /* Haptic Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBF507625B88EB10045089C /* HapticFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFinder.swift; sourceTree = "<group>"; };
+		FEBF507825B88EB10045089C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEBF507A25B88EB20045089C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBF507D25B88EB20045089C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEBF507F25B88EB20045089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBFAEFB25B9D5170030C542 /* PeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewModel.swift; sourceTree = "<group>"; };
+		FEBFAEFE25B9D8710030C542 /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBF507025B88EB10045089C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1ED4B125BA019700CDFBE9 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1ED4B825BA2B0F00CDFBE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE1ED4B925BA2B1F00CDFBE9 /* Comparable-clamped.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEBF506A25B88EB10045089C = {
+			isa = PBXGroup;
+			children = (
+				FEBF507525B88EB10045089C /* HapticFinder */,
+				FEBF507425B88EB10045089C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBF507425B88EB10045089C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBF507325B88EB10045089C /* Haptic Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBF507525B88EB10045089C /* HapticFinder */ = {
+			isa = PBXGroup;
+			children = (
+				FE1ED4B825BA2B0F00CDFBE9 /* Extensions */,
+				FEBF507625B88EB10045089C /* HapticFinder.swift */,
+				FEBF507825B88EB10045089C /* ContentView.swift */,
+				FE97220E25D3362D001F8B72 /* PeripheralListItem.swift */,
+				FE91894E25D07885003B8A3A /* PeripheralSelector.swift */,
+				FE1ED4A525B9E22400CDFBE9 /* PeripheralsViewModel.swift */,
+				FEBFAEFE25B9D8710030C542 /* PeripheralView.swift */,
+				FEBFAEFB25B9D5170030C542 /* PeripheralViewModel.swift */,
+				FE1ED4B525BA236700CDFBE9 /* Haptics.swift */,
+				FEB585AB25D040D00015EC74 /* Persistence.swift */,
+				FEBF507F25B88EB20045089C /* Info.plist */,
+				FEB5858625D03D480015EC74 /* DataModel.xcdatamodeld */,
+				FEBF507A25B88EB20045089C /* Assets.xcassets */,
+				FEBF507C25B88EB20045089C /* Preview Content */,
+			);
+			path = HapticFinder;
+			sourceTree = "<group>";
+		};
+		FEBF507C25B88EB20045089C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEBF507D25B88EB20045089C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBF507225B88EB10045089C /* Haptic Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBF508225B88EB20045089C /* Build configuration list for PBXNativeTarget "Haptic Finder" */;
+			buildPhases = (
+				FEBF506F25B88EB10045089C /* Sources */,
+				FEBF507025B88EB10045089C /* Frameworks */,
+				FEBF507125B88EB10045089C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haptic Finder";
+			packageProductDependencies = (
+				FE1ED4B025BA019700CDFBE9 /* SwiftUICharts */,
+			);
+			productName = "Haptic Bluetooth Analyzer";
+			productReference = FEBF507325B88EB10045089C /* Haptic Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBF506B25B88EB10045089C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FEBF507225B88EB10045089C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = FEBF506E25B88EB10045089C /* Build configuration list for PBXProject "HapticFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBF506A25B88EB10045089C;
+			packageReferences = (
+				FE1ED4AF25BA019700CDFBE9 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = FEBF507425B88EB10045089C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBF507225B88EB10045089C /* Haptic Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBF507125B88EB10045089C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBF507E25B88EB20045089C /* Preview Assets.xcassets in Resources */,
+				FEBF507B25B88EB20045089C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBF506F25B88EB10045089C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1ED4BA25BA2B1F00CDFBE9 /* Comparable-clamped.swift in Sources */,
+				FEB5858825D03D480015EC74 /* DataModel.xcdatamodeld in Sources */,
+				FE1ED4B625BA236700CDFBE9 /* Haptics.swift in Sources */,
+				FEBF507925B88EB10045089C /* ContentView.swift in Sources */,
+				FE91894F25D07885003B8A3A /* PeripheralSelector.swift in Sources */,
+				FEBF507725B88EB10045089C /* HapticFinder.swift in Sources */,
+				FEBFAEFC25B9D5170030C542 /* PeripheralViewModel.swift in Sources */,
+				FE1ED4A625B9E22400CDFBE9 /* PeripheralsViewModel.swift in Sources */,
+				FEBFAEFF25B9D8710030C542 /* PeripheralView.swift in Sources */,
+				FE97220F25D3362D001F8B72 /* PeripheralListItem.swift in Sources */,
+				FEB585AC25D040D00015EC74 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEBF508025B88EB20045089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEBF508125B88EB20045089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBF508325B88EB20045089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "HapticFinder/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5JLCAKJPXH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HapticFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.zengraf.HapticFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEBF508425B88EB20045089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "HapticFinder/Preview\\ Content";
+				DEVELOPMENT_TEAM = 5JLCAKJPXH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HapticFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.zengraf.HapticFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBF506E25B88EB10045089C /* Build configuration list for PBXProject "HapticFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBF508025B88EB20045089C /* Debug */,
+				FEBF508125B88EB20045089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBF508225B88EB20045089C /* Build configuration list for PBXNativeTarget "Haptic Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBF508325B88EB20045089C /* Debug */,
+				FEBF508425B88EB20045089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1ED4AF25BA019700CDFBE9 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE1ED4B025BA019700CDFBE9 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1ED4AF25BA019700CDFBE9 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FEB5858625D03D480015EC74 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEB5858725D03D480015EC74 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = FEB5858725D03D480015EC74 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEBF506B25B88EB10045089C /* Project object */;
+}
