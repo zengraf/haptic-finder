@@ -7,6 +7,7 @@ It goes without saying that it is very easy for any small thing to get lost amon
 This project tries to solve this problem by designing and developing an application called Haptic Finder that would help such people to find their peripherals equipped with Bluetooth using “Hot and Cold” game principles and incorporating haptic and visual cues into the searching process for accessibility.
 
 ## Technical details
-The application uses SwiftUI framework in conjunction with CoreBluetooth for managing Bluetooth connectivity and RSSI measurements, CoreHaptics for working with the vibration motor and CoreData for persistent data management (e.g. saved devices).
+The application uses `SwiftUI` framework in conjunction with `CoreBluetooth` for managing Bluetooth connectivity and RSSI measurements, `CoreHaptics` for working with the vibration motor and `CoreData` for persistent data management (e.g. saved devices).
 
 ## Screenshots
+<img src="https://github.com/zengraf/haptic-finder/raw/main/screenshots/main_screen.png" alt="Main screen" width="300"> <img src="https://github.com/zengraf/haptic-finder/raw/main/screenshots/details_screen.png" alt="Details screen" width="300"> <img src="https://github.com/zengraf/haptic-finder/raw/main/screenshots/add_to_favorites.png" alt="Add to favorites" width="300">
